@@ -28,6 +28,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Script
+          src="https://api-ads.attoaioz.cyou/api/v1/platform/download_header_script_file.js?orgId=ce6faa21-416e-4f77-915b-1e759d91b847&platformId=50fd8f60-2b07-446e-a20b-9ac11feeefb1"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
         {children}
       </body>
     </html>
