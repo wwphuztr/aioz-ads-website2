@@ -1,1 +1,1 @@
-aioz.network, oe6faa21-418e-4f77-915b-4e759d9c8847, DIRECT
+aioz.network, ce6faa21-416e-4f77-915b-1e759d91b847, DIRECT
