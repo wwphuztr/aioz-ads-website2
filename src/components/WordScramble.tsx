@@ -14,7 +14,7 @@ export default function WordScramble() {
       </p>
       
       <p className="mb-6 text-sm text-blue-100">
-        Read the definition. Can you beat the clock and spell the word?
+        Read the definition.
       </p>
       
       <Link
