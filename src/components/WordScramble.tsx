@@ -3,17 +3,17 @@ import { Gamepad2 } from 'lucide-react';
 
 export default function WordScramble() {
   return (
-    <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg shadow-md p-6 text-white">
-      <div className="flex items-center space-x-2 mb-4">
-        <Gamepad2 className="w-6 h-6" />
+    <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg shadow-md p-4 text-white">
+      <div className="flex items-center space-x-2 mb-5">
+        <Gamepad2 className="w-5 h-5" />
         <h2 className="text-lg font-semibold">Word Scramble</h2>
       </div>
       
-      <p className="mb-4 text-blue-100">
+      <p className="mb-2 text-blue-100">
         Challenge yourself with word games from Cambridge Dictionary.
       </p>
       
-      <p className="mb-6 text-sm text-blue-100">
+      <p className="mb-4 text-sm text-blue-100">
         Read the definition.
       </p>
       

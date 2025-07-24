@@ -11,12 +11,12 @@ export default function PopularSearches({
   ]
 }: PopularSearchesProps) {
   return (
-    <div className="bg-white rounded-lg shadow-md p-6">
-      <h2 className="text-lg font-semibold text-gray-900 mb-4">Popular searches</h2>
-      <p className="text-sm text-gray-600 mb-4">English Dictionary</p>
+    <div className="bg-white rounded-lg shadow-md p-5">
+      <h2 className="text-lg font-semibold text-gray-900 mb-3">Popular searches</h2>
+      <p className="text-sm text-gray-600 mb-3">English Dictionary</p>
       
-      <div className="grid grid-cols-2 gap-4">
-        <div className="space-y-2">
+      <div className="grid grid-cols-2 gap-3">
+        <div className="space-y-1">
           {searches.slice(0, 5).map((search, index) => (
             <Link 
               key={search}
@@ -31,7 +31,7 @@ export default function PopularSearches({
           ))}
         </div>
         
-        <div className="space-y-2">
+        <div className="space-y-1">
           {searches.slice(5, 10).map((search, index) => (
             <Link 
               key={search}
