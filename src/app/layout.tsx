@@ -41,10 +41,10 @@ export default function RootLayout({
           strategy="afterInteractive"
           crossOrigin="anonymous"
         />
-        {/* <Script
-          src="https://api-ads.attoaioz.cyou/api/v1/platform/download_header_script_file.js?orgId=ce6faa21-416e-4f77-915b-1e759d91b847&platformId=50fd8f60-2b07-446e-a20b-9ac11feeefb1"
-          strategy="beforeInteractive"
-        /> */}
+        <Script
+          src="https://api-ads-publisher.attoaioz.cyou/api/v1/platform/download_header_script_file.js?orgId=904e37c3-b8ff-4949-9101-d57432392168&platformId=f3123048-ba23-450c-9aab-be1eca82386b"
+          crossOrigin="anonymous"
+        />
         {children}
       </body>
     </html>
